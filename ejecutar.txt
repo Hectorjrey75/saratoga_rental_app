@@ -1,0 +1,15 @@
+# Secuencia completa recomendada:
+
+# 1. Verificar instalación
+python verify_installation.py
+
+# 2. Entrenar modelo (si no está entrenado)
+python train_model.py
+
+# 3. Probar una predicción
+python test_prediction.py
+
+# 4. Iniciar aplicación web
+streamlit run app/main.py
+
+# 5. Abrir navegador en http://localhost:8501

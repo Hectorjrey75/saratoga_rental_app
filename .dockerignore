@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+houses-env/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/*.log
+logs/*.zip
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data (excepto raw)
+data/processed/*
+data/models/*
+!data/raw/SaratogaHouses.csv
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Distribution
+dist/
+build/
+*.egg-info/

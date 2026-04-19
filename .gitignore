@@ -1,0 +1,291 @@
+# ============================================
+# PYTHON
+# ============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+houses-env/
+houses-env/*
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================
+# VISUAL STUDIO CODE
+# ============================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# ============================================
+# IDE - JETBRAINS
+# ============================================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ============================================
+# IDE - OTHERS
+# ============================================
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bak
+*.tmp
+*.temp
+
+# ============================================
+# PROJECT SPECIFIC - DATA
+# ============================================
+# Datos procesados (generados automáticamente)
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.pkl
+
+# Modelos entrenados (archivos grandes)
+data/models/*.pkl
+data/models/*.joblib
+data/models/*.h5
+data/models/*.pb
+data/models/*.json
+data/models/*.txt
+
+# Mantener los directorios pero no su contenido
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/models/.gitkeep
+
+# Datos crudos (si son muy grandes, mejor no subirlos)
+# Si el dataset es >100MB, descomenta la siguiente línea:
+# data/raw/*.csv
+# !data/raw/.gitkeep
+
+# ============================================
+# PROJECT SPECIFIC - LOGS
+# ============================================
+logs/*.log
+logs/*.log.*
+logs/*.zip
+logs/*.gz
+!logs/.gitkeep
+
+# ============================================
+# PROJECT SPECIFIC - STREAMLIT
+# ============================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ============================================
+# PROJECT SPECIFIC - OUTPUTS
+# ============================================
+outputs/
+exports/
+reports/
+figures/
+*.html
+*.pdf
+
+# ============================================
+# DOCKER
+# ============================================
+# Docker files (ya están en el repo, no ignorar)
+# .dockerignore se maneja por separado
+
+# ============================================
+# JUPYTER NOTEBOOKS
+# ============================================
+# Mantener notebooks en el repo
+# Pero ignorar checkpoints
+.notebooks/
+*.nbconvert.ipynb
+
+# ============================================
+# SECURITY
+# ============================================
+# Archivos con información sensible
+*.key
+*.pem
+*.crt
+*.p12
+secrets/
+secrets.yaml
+credentials.json
+service-account.json
+
+# ============================================
+# TEMPORARY FILES
+# ============================================
+*.temp
+*.tmp
+*.cache
+*.lock
+
+# ============================================
+# OS SPECIFIC
+# ============================================
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ============================================
+# END OF .gitignore
+# ============================================
