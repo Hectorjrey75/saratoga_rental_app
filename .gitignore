@@ -239,7 +239,7 @@ figures/
 # ============================================
 # Mantener notebooks en el repo
 # Pero ignorar checkpoints
-.notebooks/
+
 *.nbconvert.ipynb
 
 # ============================================
